@@ -14,7 +14,6 @@ $(document).ready(function () {
 
 
     $('#standard, #premium, #excelium').on('click', function () {
-       //add premium and excelium options (if found a function that does this in the code also corrected typo in standard.
         var prodRange = getProdRange();
         //console.log(prodRange)
         document.getElementById('elevPriceUnit').value = (prodRange.price + " $");
